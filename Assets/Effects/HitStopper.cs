@@ -5,20 +5,6 @@ using UnityEngine;
 public class HitStopper : MonoBehaviour
 {
     [SerializeField] float hitStopTime = 0.1f;
-    void Start()
-    {
-
-
-
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            HitStop();
-        }
-    }
 
     public void HitStop()
     {
